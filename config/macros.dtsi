@@ -1,3 +1,21 @@
+macro_angle_brackets: macro_angle_brackets{
+compatible = "zmk,behavior-macro";
+label = "macro_angle_brackets";
+#binding-cells = <0>;
+bindings = <&kp LESS_THAN>, <&kp GREATER_THAN>, <&kp LEFT>;
+};
+macro_double_yajirush: macro_double_yajirush{
+compatible = "zmk,behavior-macro";
+label = "macro_double_yajirush";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&kp GREATER_THAN>;
+};
+macro_single_yajirush: macro_single_yajirush{
+compatible = "zmk,behavior-macro";
+label = "macro_single_yajirush";
+#binding-cells = <0>;
+bindings = <&kp MINUS>, <&kp GREATER_THAN>;
+};
 macro_cmd_ctrl: macro_cmd_ctrl{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_ctrl";
