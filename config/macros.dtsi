@@ -1,3 +1,9 @@
+macro_iterm: macro_iterm{
+compatible = "zmk,behavior-macro";
+label = "macro_iterm";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(LG(B)))>;
+};
 macro_angle_brackets: macro_angle_brackets{
 compatible = "zmk,behavior-macro";
 label = "macro_angle_brackets";
