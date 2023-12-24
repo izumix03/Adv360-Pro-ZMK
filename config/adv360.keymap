@@ -51,9 +51,9 @@
             bindings = <
  &bt BT_CLR        &kp F1                 &kp F2         &kp F3         &kp F4         &kp F5                 &kp F6        &none        &kp F7         &kp F8                  &kp F9        &kp F10        &kp F11       &kp F12
      &trans     &kp ENTER     &macro_find_usages         &trans         &trans  &kp LA(LS(U))            &bootloader  &bootloader        &trans  &macro_parens  &macro_double_yajirush  &macro_braces         &trans  &bt BT_SEL 0
-     &trans  &macro_iterm  &macro_to_declaration  &macro_alfred  &macro_snipet         &trans                 &kp F6       &trans        &trans                                                &trans         &trans        &trans      &trans  &kp SINGLE_QUOTE  &macro_single_yajirush  &macro_angle_brackets  &kp DOUBLE_QUOTES  &bt BT_SEL 1
-     &trans        &trans                 &trans         &trans   &macro_paste         &trans                  &none        &none        &trans          &none                   &none         &trans          &none         &none      &trans     &kp LESS_THAN             &kp PAGE_UP       &kp GREATER_THAN             &trans        &trans
-     &trans        &trans                 &trans         &trans  &macro_rename         &trans                 &trans       &trans  &kp CAPSLOCK       &kp BSLH                  &trans       &kp HOME  &kp PAGE_DOWN       &kp END  &bt BT_CLR      &out OUT_TOG
+     &trans  &macro_iterm  &macro_to_declaration  &macro_alfred  &macro_snipet         &trans                 &kp F6       &trans        &trans                                                &trans         &trans        &trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &macro_single_yajirush  &macro_angle_brackets  &kp DOUBLE_QUOTES  &bt BT_SEL 1
+     &trans        &trans                 &trans         &trans   &macro_paste         &trans                  &none        &none        &trans          &none                   &none         &trans          &none         &none             &trans     &kp LESS_THAN             &kp PAGE_UP       &kp GREATER_THAN             &trans        &trans
+     &trans        &trans                 &trans         &trans  &macro_rename         &trans                 &trans       &trans  &kp CAPSLOCK       &kp BSLH                  &trans       &kp HOME  &kp PAGE_DOWN       &kp END         &bt BT_CLR      &out OUT_TOG
             >;
         };
 
