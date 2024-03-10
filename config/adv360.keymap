@@ -59,11 +59,11 @@
 
         layer_windows {
             bindings = <
-    &trans  &trans    &trans  &trans  &trans     &trans            &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans    &trans  &trans  &trans     &trans            &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans    &trans  &trans  &trans     &trans            &trans  &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans    &trans  &trans  &trans     &trans            &trans  &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LCTRL  &trans  &kp LWIN  &trans  &trans  &kp LCTRL            &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LCTRL  &trans  &kp LWIN  &trans  &trans  &kp LCTRL            &trans  &kp LC(SPACE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
