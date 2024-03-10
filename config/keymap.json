@@ -22,8 +22,8 @@
            "&trans",                   "&trans",                "&trans",        "&trans", "&macro_rename", "&trans",                "&trans",      "&trans", "&kp CAPSLOCK", "&kp BSLH", "&trans", "&kp HOME", "&kp PAGE_DOWN",      "&kp END", "&bt BT_CLR",     "&out OUT_TOG"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-        "&mo 1", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",         "&mo 1",   "&kp LA(F4)",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+        "&mo 1", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",         "&mo 1",   "&kp LA(F4)",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans", "&kp LEFT_WIN", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&kp LCTRL",           "&kp LALT", "&kp LC(SPACE)",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
