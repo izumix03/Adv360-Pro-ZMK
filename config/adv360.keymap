@@ -61,7 +61,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans     &trans              &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans     &trans              &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans     &trans              &trans          &mo 1        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans     &trans              &trans          &mo 1    &kp LA(F4)                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans     &trans              &trans         &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &kp LCTRL            &kp LALT  &kp LC(SPACE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
