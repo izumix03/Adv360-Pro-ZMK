@@ -61,9 +61,19 @@
             bindings = <
     &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
     &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+    &trans  &trans    &trans  &trans  &trans     &trans            &trans       &kp LALT        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
     &trans  &trans    &trans  &trans  &trans     &trans            &trans         &trans  &kp LEFT_WIN  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LCTRL  &trans  &kp LWIN  &trans  &trans  &kp LCTRL            &trans  &kp LC(SPACE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp LCTRL  &trans  &kp LWIN  &trans  &trans  &kp LCTRL             &mo 3  &kp LC(SPACE)        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_windows_fn {
+            bindings = <
+ &trans  &trans  &trans         &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans         &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &kp LA(SPACE)  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans         &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans         &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
