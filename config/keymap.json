@@ -21,11 +21,11 @@
            "&trans",        "&kp LG(BACKSLASH)",                "&trans",        "&trans", "&macro_snipet", "&trans",                 "&none",       "&none",       "&trans",    "&none",  "&none",   "&tog 2",         "&none",        "&none",     "&trans",           "&trans",       "&kp PAGE_UP", "&trans", "&trans", "&bt BT_SEL 3",
            "&trans",                   "&trans",                "&trans",        "&trans", "&macro_rename", "&trans",                "&trans",      "&trans", "&kp CAPSLOCK", "&kp BSLH", "&trans", "&kp HOME", "&kp PAGE_DOWN",      "&kp END", "&bt BT_CLR",     "&out OUT_TOG"
     ], [
-          "&trans", "&trans",   "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-          "&trans", "&trans",   "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-          "&trans", "&trans",   "&trans", "&trans", "&trans",    "&trans",             "&trans",         "&mo 1",       "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-          "&trans", "&trans",   "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans", "&kp LEFT_WIN", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&kp LCTRL", "&trans", "&kp LWIN", "&trans", "&trans", "&kp LCTRL",           "&kp LALT", "&kp LC(SPACE)",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",         "&mo 1",       "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",    "&trans",             "&trans",        "&trans", "&kp LEFT_WIN", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&kp LCTRL",           "&kp LALT", "&kp LC(SPACE)",       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
