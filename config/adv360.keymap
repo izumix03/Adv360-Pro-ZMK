@@ -22,67 +22,36 @@
       };
     };
 
-  keymap {
-    compatible = "zmk,keymap";
-
-    default_layer {
-      display-name = "Base";
-      bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
-      >;
-    };
-    keypad {
-      display-name = "Kp";
-      bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
-        &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                            &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
-        &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0              &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &mo 2
-      >;
-    };
-    fn {
-      display-name = "Fn";
-      bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
-      >;
-    };
-    mod {
-      display-name = "Mod";
-      bindings = <
-        &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none                                                                     &trans                 &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none        &none        &bootloader                                                               &bootloader            &none        &none        &none        &none &none &none
-        &studio_unlock &none        &none        &none        &none        &none        &none                   &none &none &bt BT_CLR &none                      &stp STP_BAT &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &macro_ver   &none                                      &none &none                                                        &none        &none        &none        &none &none &none
-        &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
-      >;
-    };
-    extra1 { 
-      display-name = "Red";    
-      status = "reserved";
+    macros {
+        Password: Password {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H>;
+            label = "PASSWORD";
+        };
     };
 
-    extra2 { 
-      display-name = "Purple";    
-      status = "reserved";
-    };
+    keymap {
+        compatible = "zmk,keymap";
 
-    extra3 { 
-      display-name = "Cyan";    
-      status = "reserved";
-    };
+        default_layer {
+            bindings = <
+&kp ESCAPE      &kp N1    &kp N2     &kp N3         &kp N4     &kp N5        &kp N6     &mo 1              &kp N7     &kp N8   &kp N9     &kp N0         &kp MINUS    &kp BACKSPACE
+&kp QUESTION    &kp Q     &kp W      &kp E          &kp R      &kp T         &kp SPACE  &kp DOUBLE_QUOTES  &kp Y      &kp U    &kp I      &kp O          &kp P        &kp EQUAL
+&kp TAB         &kp A     &kp S      &kp D          &kp F      &kp G         &kp N6     &kp LCTRL          &kp ENTER                      &kp DELETE     &kp RG(TAB)  &kp SINGLE_QUOTE  &kp H     &kp J     &kp K   &kp L      &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT  &kp Z     &kp X      &kp C          &kp V      &kp B         &none      &none              &kp LALT   &none    &none      &kp BACKSPACE  &none        &none             &kp N     &kp M     &kp UP  &kp COMMA  &kp DOT   &kp SLASH
+&kp LGUI        &kp LALT  &kp LCTRL  &kp BACKSPACE  &kp GRAVE  &kp LEFT_GUI  &mo 1      &kp LG(SPACE)      &kp ENTER  &kp TAB  &kp SPACE  &kp LEFT       &kp DOWN     &kp RIGHT         &kp LBKT  &kp RBKT
+            >;
+        };
 
-    extra4 { 
-      display-name = "Yellow";    
-      status = "reserved";
+        layer_fn {
+            bindings = <
+&bt BT_CLR    &kp F1                    &kp F2         &kp F3         &kp F4         &kp F5  &kp F6       &none        &kp F7        &kp F8    &kp F9  &kp F10   &kp F11        &kp F12
+&bt BT_SEL 0  &kp LA(LC(SINGLE_QUOTE))  &kp LA(F7)     &kp BACKSPACE  &kp LS(F6)     &trans  &bootloader  &bootloader  &trans        &trans    &trans  &trans    &trans         &bt BT_SEL 0
+&bt BT_SEL 1  &kp LC(LA(LG(B)))         &kp LA(LG(B))  &kp LC(SPACE)  &kp ENTER      &trans  &kp F6       &trans       &trans                          &tog 0    &trans         &trans        &trans      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans  &trans  &bt BT_SEL 1
+&trans        &kp LG(BACKSLASH)         &trans         &kp SPACE      &kp LC(ENTER)  &trans  &none        &none        &trans        &none     &none   &tog 2    &none          &none         &trans      &trans            &kp PAGE_UP        &trans  &trans  &bt BT_SEL 3
+&Password     &trans                    &trans         &kp DEL        &trans         &trans  &trans       &trans       &kp CAPSLOCK  &kp BSLH  &trans  &kp HOME  &kp PAGE_DOWN  &kp END       &bt BT_CLR  &out OUT_TOG
+            >;
+        };
     };
-  };
 };
